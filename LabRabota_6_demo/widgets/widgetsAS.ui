@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1115</width>
+    <height>280</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Время реагирования с использованием АС</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout" rowstretch="1,0,0,0,0,0,0,0" columnstretch="1,0,0,0,0,0,0,0,0,0,0,0,0">
+     <item row="6" column="6" colspan="2">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>ФИО</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2" colspan="11">
+      <widget class="QPushButton" name="pb_vyzov">
+       <property name="text">
+        <string>Отправить</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Улица</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="QLabel" name="lb_tekTime">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2" rowspan="2" colspan="11">
+      <widget class="QPushButton" name="pb_fire">
+       <property name="text">
+        <string>Принять вызов</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="lb_tekStatus">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" rowspan="7" colspan="2">
+      <widget class="QLabel" name="lb_soob">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2" colspan="11">
+      <widget class="QSplitter" name="splitter_6">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <widget class="QSplitter" name="splitter">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QCheckBox" name="cb_psch1">
+         <property name="text">
+          <string>ПСЧ-1 (360-8101)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch6">
+         <property name="text">
+          <string>ПСЧ-6 (360-8106)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch11">
+         <property name="text">
+          <string>ПСЧ-11 (360-8111)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch16">
+         <property name="text">
+          <string>ПСЧ-16 (360-8116)</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QCheckBox" name="cb_psch2">
+         <property name="text">
+          <string>ПСЧ-2 (360-8102)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch7">
+         <property name="text">
+          <string>ПСЧ-7 (360-8107)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch12">
+         <property name="text">
+          <string>ПСЧ-12 (360-8112)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch17">
+         <property name="text">
+          <string>ПСЧ-17 (360-8117)</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QCheckBox" name="cb_psch3">
+         <property name="text">
+          <string>ПСЧ-3 (360-8103)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch8">
+         <property name="text">
+          <string>ПСЧ-8 (360-8108)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch13">
+         <property name="text">
+          <string>ПСЧ-13 (360-8113)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch18">
+         <property name="text">
+          <string>ПСЧ-18 (360-8118)</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QCheckBox" name="cb_psch4">
+         <property name="text">
+          <string>ПСЧ-4 (360-8104)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch9">
+         <property name="text">
+          <string>ПСЧ-9 (360-8109)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch14">
+         <property name="text">
+          <string>ПСЧ-14 (360-8114)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch19">
+         <property name="text">
+          <string>ПСЧ-19 (360-8119)</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QCheckBox" name="cb_psch5">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string>ПСЧ-5 (360-8105)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch10">
+         <property name="text">
+          <string>ПСЧ-10(360-8110)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch15">
+         <property name="text">
+          <string>ПСЧ-15 (360-8115)</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="cb_psch20">
+         <property name="text">
+          <string>ПСЧ-20 (360-8120)</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QLineEdit" name="le_ulica"/>
+     </item>
+     <item row="7" column="4">
+      <widget class="QSplitter" name="splitter_postrad">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <widget class="QCheckBox" name="cb_postradavshie">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Пострадавшие</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_postradavshie">
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QSplitter" name="splitter_TD">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <widget class="QSplitter" name="splitter_data">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Дата и время:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lb_tekDatTime">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter_time">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item row="6" column="2" colspan="2">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Что горит</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QLineEdit" name="le_chto"/>
+     </item>
+     <item row="5" column="7">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Дом</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="8">
+      <widget class="QLineEdit" name="le_dom"/>
+     </item>
+     <item row="6" column="8">
+      <widget class="QLineEdit" name="le_FIO"/>
+     </item>
+     <item row="7" column="8">
+      <widget class="QLabel" name="lb_time">
+       <property name="text">
+        <string>00:00:00</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>le_ulica</tabstop>
+  <tabstop>le_dom</tabstop>
+  <tabstop>le_chto</tabstop>
+  <tabstop>le_FIO</tabstop>
+  <tabstop>cb_postradavshie</tabstop>
+  <tabstop>le_postradavshie</tabstop>
+  <tabstop>pb_vyzov</tabstop>
+  <tabstop>pb_fire</tabstop>
+  <tabstop>cb_psch15</tabstop>
+  <tabstop>cb_psch19</tabstop>
+  <tabstop>cb_psch7</tabstop>
+  <tabstop>cb_psch4</tabstop>
+  <tabstop>cb_psch9</tabstop>
+  <tabstop>cb_psch13</tabstop>
+  <tabstop>cb_psch14</tabstop>
+  <tabstop>cb_psch1</tabstop>
+  <tabstop>cb_psch18</tabstop>
+  <tabstop>cb_psch3</tabstop>
+  <tabstop>cb_psch20</tabstop>
+  <tabstop>cb_psch16</tabstop>
+  <tabstop>cb_psch5</tabstop>
+  <tabstop>cb_psch8</tabstop>
+  <tabstop>cb_psch6</tabstop>
+  <tabstop>cb_psch2</tabstop>
+  <tabstop>cb_psch10</tabstop>
+  <tabstop>cb_psch17</tabstop>
+  <tabstop>cb_psch12</tabstop>
+  <tabstop>cb_psch11</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

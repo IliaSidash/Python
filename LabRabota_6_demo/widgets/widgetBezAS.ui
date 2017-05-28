@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>985</width>
+    <height>219</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Время реагирования без применения АС</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="7" column="3">
+      <widget class="QCheckBox" name="cb_psch10">
+       <property name="text">
+        <string>ПСЧ-10 (360-8110)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="4">
+      <widget class="QCheckBox" name="cb_psch15">
+       <property name="text">
+        <string>ПСЧ-15 (360-8115)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QCheckBox" name="cb_psch16">
+       <property name="text">
+        <string>ПСЧ-16 (360-8116)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QCheckBox" name="cb_psch5">
+       <property name="text">
+        <string>ПСЧ-5 (360-8105)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QCheckBox" name="cb_psch17">
+       <property name="text">
+        <string>ПСЧ-17 (360-8117)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QCheckBox" name="cb_psch2">
+       <property name="text">
+        <string>ПСЧ-2 (360-8102)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QCheckBox" name="cb_psch12">
+       <property name="text">
+        <string>ПСЧ-12 (360-8112)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="5">
+      <widget class="QCheckBox" name="cb_psch18">
+       <property name="text">
+        <string>ПСЧ-18 (360-8118)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QCheckBox" name="cb_psch19">
+       <property name="text">
+        <string>ПСЧ-19 (360-8119)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2" colspan="4">
+      <widget class="QPushButton" name="pb_vyzov">
+       <property name="text">
+        <string>Вызов</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QCheckBox" name="cb_psch7">
+       <property name="text">
+        <string>ПСЧ-7 (360-8107)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="3" column="3">
+      <widget class="QCheckBox" name="cb_psch6">
+       <property name="text">
+        <string>ПСЧ-6 (360-8106)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QCheckBox" name="cb_psch9">
+       <property name="text">
+        <string>ПСЧ-9 (360-8109)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QCheckBox" name="cb_psch14">
+       <property name="text">
+        <string>ПСЧ-14 (360-8114)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QCheckBox" name="cb_psch11">
+       <property name="text">
+        <string>ПСЧ-11 (360-8111)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QCheckBox" name="cb_psch1">
+       <property name="text">
+        <string>ПСЧ-1 (360-8101)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QCheckBox" name="cb_psch4">
+       <property name="text">
+        <string>ПСЧ-4 (360-8104)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QCheckBox" name="cb_psch13">
+       <property name="text">
+        <string>ПСЧ-13 (360-8113)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QCheckBox" name="cb_psch8">
+       <property name="text">
+        <string>ПСЧ-8 (360-8108)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QCheckBox" name="cb_psch3">
+       <property name="text">
+        <string>ПСЧ-3 (360-8103)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" rowspan="8" colspan="2">
+      <widget class="QLabel" name="lb_soob">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="5">
+      <widget class="QLabel" name="lb_time">
+       <property name="text">
+        <string>00:00:00</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="5">
+      <widget class="QCheckBox" name="cb_psch20">
+       <property name="text">
+        <string>ПСЧ-20 (360-8120)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="lb_tekStatus">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2" rowspan="2" colspan="4">
+      <widget class="QPushButton" name="pb_fire">
+       <property name="text">
+        <string>Принять вызов</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
